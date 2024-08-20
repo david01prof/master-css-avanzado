@@ -1,0 +1,15 @@
+.caja{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box; /* Evitar cambio de tamano de caja si le pongo padding */
+    /* box-sizing: content-box; */
+    width: 300px;
+    height: 180px;
+    margin: 0px auto;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color: cadetblue;
+    box-shadow: 0px 0px 10px gray;
+    color: white;
+}

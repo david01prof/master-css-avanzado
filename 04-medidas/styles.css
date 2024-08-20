@@ -1,0 +1,56 @@
+/* .padre{
+    font-size: 10px;
+}
+
+.padre h1{
+    font-size: 5em;
+}
+
+.padre2{
+    font-size: 34px;
+} */
+
+/* La medida em coge de referencia los pixeles del font-size padre */
+/* .caja{
+    width: 13em;
+    height: 13em;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caja h3{
+    font-size: 5em;
+} */
+
+html{
+    font-size: 10px;
+}
+.caja{
+    font-size: 2rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:528px){
+    html{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:368px){
+    html{
+        font-size: 9px;
+    }
+}
